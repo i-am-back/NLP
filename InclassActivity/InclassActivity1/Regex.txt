@@ -1,0 +1,58 @@
+Question 1
+2 / 2 pts
+Write a regular expression to match all non-alphanumeric characters in a string.
+
+Test it on the following string: 
+
+yo-dude: like, ... []{}this is a string
+
+Your Answer:
+([^a-z^A-Z^0-9])
+
+ 
+Question 2
+2 / 2 pts
+Write a regular expression match all instances of woodchuck (including uppercase variants and plurals) in the following string:
+
+How much wood would woodchucks chuck if a woodchuck could chuck wood? A Woodchuck would chuck all the wood if a woodchuck could chuck wood.
+
+Your Answer:
+[w|W]oodchuck(s?)
+
+ 
+Question 3
+6 / 6 pts
+Write a regular expression to match all instances of ‘the’ - test it on the following string.
+
+The recent attempt by the police to retain their current rates of pay has not gathered much favor with the southern factions.
+
+Your Answer:
+[t|T]he\s
+
+ 
+
+ 
+Question 4
+Not yet graded / 5 pts
+Regex to match all variants of how doctors are mentioned in text.
+
+ 
+
+Leighton E. Cluff M.D.
+
+James S. Thompson, M.D.
+
+Atul Gawande M.D.
+
+Dr. Etienne-Emile Baulieu
+
+Dr. Xiaotong Fei
+
+Doctor Dre
+
+Doctor Dolittle
+
+Doctor Who
+
+Your Answer:
+[^M.D.$]
